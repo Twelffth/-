@@ -35,7 +35,7 @@ function gotposes(results){
 
 function draw(){
     background("#d8d3d0");
-    document.getElementById("font_size").innerHTML = "Size of the flower is  ~  "+difference+"px";
+    document.getElementById("font_size").innerHTML = "Size of the heart is  ~  "+difference+"px";
     textSize(difference);
     fill("#3c3c3c");
     text('❤︎',50,400);
